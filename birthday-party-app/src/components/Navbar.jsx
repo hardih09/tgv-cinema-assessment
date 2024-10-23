@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { HomeFilled, CalendarFilled, AuditOutlined } from '@ant-design/icons';
+import TgvLogo from '/tgv-logo.png';
 
 function Navbar () {
   const NavListTemp = [
@@ -29,7 +30,9 @@ function Navbar () {
   const location = useLocation();
   return <div>
     <div>
-      <div className="img-logo">this is logo</div>
+      <div className="img-logo">
+        <img src={TgvLogo} />
+      </div>
       <div className="menu-list">
         {NavListTemp.map((data, index) => {
           return (<Link key={index} to={data.url}>

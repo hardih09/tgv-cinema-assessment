@@ -1,0 +1,18 @@
+.booking-container {
+  position: relative;
+  height: 100%;
+  padding: 32px;
+}
+
+.action-panel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff;
+  width: 74%;
+  box-shadow: 7px 2px 31px 0px rgba(191, 191, 191, 0.41);
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
