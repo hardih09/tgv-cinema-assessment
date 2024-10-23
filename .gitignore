@@ -1,1 +1,26 @@
-node_modules
+# Logs
+birthday-party-app/logs
+birthday-party-app/*.log
+birthday-party-app/npm-debug.log*
+birthday-party-app/yarn-debug.log*
+birthday-party-app/yarn-error.log*
+birthday-party-app/pnpm-debug.log*
+birthday-party-app/lerna-debug.log*
+
+birthday-party-app/node_modules
+birthday-party-app/dist
+birthday-party-app/dist-ssr
+birthday-party-app/*.local
+
+# Editor directories and files
+birthday-party-app/.vscode/*
+birthday-party-app/!.vscode/extensions.json
+birthday-party-app/.idea
+birthday-party-app/.DS_Store
+birthday-party-app/*.suo
+birthday-party-app/*.ntvs*
+birthday-party-app/*.njsproj
+birthday-party-app/*.sln
+birthday-party-app/*.sw?
+
+.vscode
