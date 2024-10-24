@@ -23,4 +23,6 @@ birthday-party-app/*.njsproj
 birthday-party-app/*.sln
 birthday-party-app/*.sw?
 
+birthday-party-api/node_modules
+
 .vscode
