@@ -109,6 +109,7 @@ button:focus-visible {
 .content-body {
   width: 75%;
   padding: 0px 0px 0px 25%;
+  background-color: #f7f7f7;
 }
 
 .sidebar-body .img-logo {
@@ -189,7 +190,7 @@ button:focus-visible {
 }
 
 .content-form {
-  padding: 12px 0px;
+  padding: 12px 0px 80px;
 }
 
 .form-field {
@@ -203,11 +204,11 @@ button:focus-visible {
 }
 
 .field-input {
-  padding: 5px 0px;
+  padding: 8px 0px 4px;
 }
 
 .field-subtitle {
-  font-size: 12px;
+  font-size: 11px;
   padding: 0px 3px;
   color: #9b9b9b;
 }
